@@ -19,4 +19,59 @@ html,body{
 
 .navbar{
 	background-color:transparent;
+	border:0;
+}
+
+#topNav{
+	font-size:18px;
+	color:white;
+	margin-top:25px;
+	margin-left:600px;
+}
+
+li{
+	padding:20px;
+}
+
+h1{
+	color:white;
+	font-size:90px;
+}
+
+#headline{
+	padding:50px;
+	text-align:center;
+	margin-top:170px;
+}
+
+#rectangle {
+	width: 97px;
+	height: 17px;
+	background: #ffcc33 ;
+	margin:auto;
+}
+
+#tagline{
+	text-align:center;
+	padding:50px;
+	margin-right:450px;
+	margin-left:450px;
+	margin-bottom:18px;
+}
+
+h2{
+	color:white;
+	font-size:27px;
+}
+
+.pt2{
+	background-color:#ebebeb;
+	margin-top:-10px;
+}
+
+h3{
+	font-size:50px;
+	text-align: center;
+	padding:20px;
+	margin-top:100px;
 }
