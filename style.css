@@ -83,8 +83,8 @@ h3{
 	margin-top:-350px;
 }
 
-#pt2a{
-	font-size: 25px;
+.pt2a{
+	font-size: 30px;
 }
 
 #pt2small{
@@ -109,4 +109,30 @@ h3{
 
 #pt3h{
 	color:white;
+}
+
+#pt3a{
+	color:white;
+	text-align:center;
+}
+
+.ypics{
+	width:10%;
+	height:10%;
+	display:block;
+	margin:0 auto;
+}
+
+#imgLeft{
+	margin-left:325px;
+	margin-top:75px;
+}
+
+#imgMid{
+	margin-top:-150px;
+}
+
+#imgRight{
+	margin-top:-150px;
+	margin-right:325px;
 }
