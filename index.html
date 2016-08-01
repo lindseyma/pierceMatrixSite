@@ -18,15 +18,20 @@
     	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     	<link rel="stylesheet" type="text/css" href="style.css"/>
     	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     </head>
 
     <body>
     	<div id="container" class="container-fluid">
     		<div id="main">
+                <div class= "row">
     			 <nav class="navbar navbar-default">
+                    <div class="col-xs-12.col-md-1">
     			<a href="index.html">
     				<img class="navbar-brand" id="logo" src="web%20assets/PierceMatrix_Logo_color.png">
     			</a>
+            </div>
     		<ul class="nav navbar-nav" id="topNav">
     			<li>HOME</li>
     			<li>PROBLEM</li>
@@ -34,10 +39,15 @@
     			<li>HOW</li>
     		</ul>
     		</nav>
+        </div>
     	<h1 id="headline">Worst In. First Out.</h1>
     	<div id="rectangle"></div>
     	<h2 id="tagline">Give your security Team an unfair advantage over hackers</h2>
     	<br>
+        <form>
+            <input type="text" name="email" placeholder="Email Address" class="for" id="em">
+            <input type="submit" value="Request A Demo" class="for" id="sub">
+        </form>
     	</div>
 
     	<div class="pt2">
@@ -81,6 +91,43 @@
     		<div id="rectangle"></div>
     		<br><br>
     		<p class"pt2a" id="pt4a">We track malicious actors globally and report<br> on how they are interacting with you locally.</p>
+            <br>
+            <ul class="nav nav-tabs" id="tabstyling">
+            <li class="active"><a data-toggle="tab" href="#Suspicious">&nbspSuspicious&nbsp</a></li>
+            <li><a data-toggle="tab" href="#Targets">&nbspTargets&nbsp</a></li>
+            <li><a data-toggle="tab" href="#Internal">&nbspInternal Malicious&nbsp</a></li>
+            <li><a data-toggle="tab" href="#External"> &nbspExternal Malicious&nbsp</a></li>
+          </ul>
+          <div class="tab-content">
+            <div id="home" class="tab-pane fade in active">
+              <div class="row">
+                <div class="col-xs-12 text-center visible-xs">
+                  <p id="Suspicious"> </p>
+                </div>
+               
+              </div>
+            </div>
+            <div id="Targets" class="tab-pane fade">
+              </div>
+            <div id="Internal" class="tab-pane fade">
+              
+              </div>
+            </div>
+          
+
+        <div class="pt5">
+            <br><br>
+            <h3 id="pt3h">Our Team</h3>
+            <div id="rectangle"></div>
+
+            <br><br>
+        </div>
+
+        <div class="pt6">
+            <br><br>
+            <p>We're hiring</p>
+
+
     </div>
 
     </body>

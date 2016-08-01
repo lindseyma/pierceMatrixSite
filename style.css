@@ -1,3 +1,5 @@
+
+
 #container #main{
 	background-image:url('web%20assets/Hero-Image.jpg');
 	background-size:cover;
@@ -27,21 +29,25 @@ html,body{
 	color:white;
 	margin-top:25px;
 	margin-left:600px;
+	font-family: 'Lato', sans-serif;
 }
 
 li{
 	padding:20px;
+	font-family: 'Lato', sans-serif;
 }
 
 h1{
 	color:white;
 	font-size:90px;
+	font-family: 'Lato', sans-serif;
 }
 
 #headline{
 	padding:50px;
 	text-align:center;
-	margin-top:170px;
+	margin-top:80px;
+	font-family: 'Lato', sans-serif;
 }
 
 #rectangle {
@@ -57,11 +63,13 @@ h1{
 	margin-right:450px;
 	margin-left:450px;
 	margin-bottom:18px;
+	font-family: 'Lato', sans-serif;
 }
 
 h2{
 	color:white;
 	font-size:27px;
+	font-family: 'Lato', sans-serif;
 }
 
 .pt2{
@@ -74,6 +82,7 @@ h3{
 	text-align: center;
 	padding:20px;
 	margin-top:90px;
+	font-family: 'Lato', sans-serif;
 }
 
 #pt2txt{
@@ -81,19 +90,23 @@ h3{
 	text-align: center;
 	margin-left:350px;
 	margin-top:-350px;
+	font-family: 'Lato', sans-serif;
 }
 
 .pt2a{
 	font-size: 30px;
+	font-family: 'Lato', sans-serif;
 }
 
 #pt2small{
 	font-size:10px;
+	font-family: 'Lato', sans-serif;
 }
 
 #pt2List{
 	padding:20px;
 	font-size:16px;
+	font-family: 'Lato', sans-serif;
 }
 
 #redX{
@@ -114,6 +127,7 @@ h3{
 #pt3a{
 	color:white;
 	text-align:center;
+	font-family: 'Lato', sans-serif;
 }
 
 .ypics{
@@ -142,6 +156,7 @@ h3{
 	font-size:72px;
 	margin-top:-150px;
 	margin-left:525px;
+	font-family: 'Lato', sans-serif;
 }
 
 #plus2{
@@ -149,6 +164,7 @@ h3{
 	font-size:72px;
 	margin-top:-111.5px;
 	margin-left:865px;
+	font-family: 'Lato', sans-serif;
 }
 
 .pt4{
@@ -164,4 +180,26 @@ h3{
 	font-size:30px;
 	color: black;
 	text-align: center;
+	font-family: 'Lato', sans-serif;
+}
+
+.pt5{
+	background-color:#393d44;
+}
+
+.for{
+	border-radius:10px;
+	height:70px;
+	margin-left:400px;
+	margin-right:-400px;
+}
+
+#em{
+	width:400px;
+	background:none;
+}
+
+#sub{
+	width:200px;
+	background:white;
 }
