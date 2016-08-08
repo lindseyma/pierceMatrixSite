@@ -265,6 +265,13 @@ h3{
 	margin-right:290px;
 	margin-top:-44px;
 }
+
+.subsub{
+	font-family: 'Lato', sans-serif, font-weight:100;
+	color: white;
+	font-size: 17px;
+}
+
 .tea{
 	width:150px;
 	height:150px;
@@ -282,4 +289,18 @@ h3{
 .tabz{
 	margin-left:
 	200px;
+}
+
+.verticalLine{
+	color:white;
+}
+
+verticalLine{
+  width: 1px; /* Line width */
+  background-color: white; /* Line color */
+  height: 100%; /* Override in-line if you want specific height. */
+  float: left; /* Causes the line to float to left of content. 
+    You can instead use position:absolute or display:inline-block
+    if this fits better with your design */
+    margin-left:300px;
 }
