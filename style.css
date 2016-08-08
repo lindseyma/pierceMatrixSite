@@ -251,6 +251,20 @@ h3{
 	font-size:25px;
 }
 
+#sub1{
+	margin-left:260px;
+}
+
+#sub2{
+	text-align:center;
+	margin-top:-44px;
+}
+
+#sub3{
+	text-align:right;
+	margin-right:290px;
+	margin-top:-44px;
+}
 .tea{
 	width:150px;
 	height:150px;
