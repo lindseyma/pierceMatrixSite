@@ -292,17 +292,29 @@ h3{
 }
 
 .verticalLine{
-	color:white;
+  width: 3px; 
+  background-color: white; /* Line color */
+  height: 100%; 
+  float: left; 
+    margin-left:300px;
 }
 
-verticalLine{
-  width: 1px; /* Line width */
-  background-color: white; /* Line color */
-  height: 100%; /* Override in-line if you want specific height. */
-  float: left; /* Causes the line to float to left of content. 
-    You can instead use position:absolute or display:inline-block
-    if this fits better with your design */
-    margin-left:300px;
+.horLine{
+	width:220px;
+	background-color:white;
+	height:3px;
+	margin-left:300px;
+	margin-top:59px;
+}
+
+#hor1{
+	margin-top:-5px;
+	float:right;
+}
+#hor2{
+	margin-left:895px;
+	margin-top:120px;
+	float:left;
 }
 
 #career {
@@ -313,3 +325,41 @@ verticalLine{
 	border: none;
 }
 
+#line2{
+	margin-left:810px;
+	float:right;
+}
+
+.yellowTxt{
+	text-align: center;
+	font-size: 110px;
+	color:#ffcc33;
+	margin-top:-30px;
+}
+
+#susPic{
+	width:40%;
+	height:40%;
+	float:right;
+	float:top;
+	margin-right:250px;
+	padding-left:30px;
+	margin-top:-250px;
+}
+
+#susHead{
+	padding-top:100px;
+	padding-left:300px;
+	font-family: 'Lato', sans-serif;
+	font-size:42px;
+}
+
+#susBod{
+	padding-bottom:100px;
+	padding-left:300px;
+	font-family: 'Lato', sans-serif;
+	font-size:18px;
+}
+#career{
+	float:bottom;
+}
