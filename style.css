@@ -96,9 +96,8 @@ h3{
 #pt2txt{
 	color:black;
 	text-align: center;
-	margin-left:350px;
-	margin-top:-350px;
 	font-family: 'Lato', sans-serif;
+	margin-left:-275px;
 }
 
 .pt2a{
@@ -118,8 +117,8 @@ h3{
 }
 
 #redX{
-	width:25%;
-	height:25%;
+	width:50%;
+	height:50%;
 	padding:0;
 	margin-left:275px;
 }
@@ -216,4 +215,58 @@ h3{
 	font-size:64px;
 	font-family: 'Lato', sans-serif;
 	text-align: center;
+
+#tabstyling li {
+	margin-left: -45px;
+}
+
+#tabstyling {
+	border: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+
+#tabstyling li > a {
+	font-family: 'Lato', sans-serif;
+	font-weight:400;
+	color: #30337e;
+	font-size:20px;
+	border-color:#30337e;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	border-width: 2px;
+}
+
+#tabstyling li.active> a {
+	background-color: #30337e;
+	font-size: 20px;
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-weight:300;
+}
+.subs{
+	font-family: 'Lato', sans-serif;
+	color: white;
+	font-size:25px;
+}
+
+.tea{
+	width:150px;
+	height:150px;
+	padding:25px;
+}
+
+#team1{
+	margin-left:500px;
+}
+
+#team2{
+	margin-left:600px;
+}
+
+.tabz{
+	margin-left:
+	200px;
 }
