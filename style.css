@@ -12,6 +12,14 @@ html,body{
 	margin-right:-7.5px;
 }
 
+.row {
+	margin-right: 0px;
+}
+
+.container-fluid {
+	padding-right: 0px;
+}
+
 #logo{
 	width:15%;
 	height:15%;
