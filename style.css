@@ -110,8 +110,9 @@ h3{
 }
 
 #pt2List{
+	color: #1a1a1a;
 	padding:20px;
-	font-size:16px;
+	font-size:18px;
 	font-family: 'Lato', sans-serif;
 }
 
@@ -180,6 +181,7 @@ h3{
 
 #pt4h{
 	color:black;
+	font-weight: 1000;
 }
 
 #pt4a{
@@ -191,6 +193,10 @@ h3{
 
 .pt5{
 	background-color:#393d44;
+}
+
+.container {
+	margin-left: 75px;
 }
 
 .for{
@@ -210,7 +216,12 @@ h3{
 	background:white;
 }
 
+.pt6 {
+	background-color: #ebebeb;
+}
+
 .hire{
+	font-weight: 100;
 	font-size:64px;
 	font-family: 'Lato', sans-serif;
 	text-align: center;
@@ -220,6 +231,7 @@ h3{
 }
 
 #tabstyling {
+	margin-left: 395px;
 	border: 0;
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
@@ -227,11 +239,12 @@ h3{
 }
 
 #tabstyling li > a {
+	margin-right: 3px;
 	font-family: 'Lato', sans-serif;
-	font-weight:400;
-	color: #30337e;
+	font-weight:600;
+	color: black;
 	font-size:20px;
-	border-color:#30337e;
+	border-color:#0047a4;
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
 	border-radius: 0;
@@ -239,7 +252,7 @@ h3{
 }
 
 #tabstyling li.active> a {
-	background-color: #30337e;
+	background-color: #0047a4;
 	font-size: 20px;
 	color: white;
 	font-family: 'Lato', sans-serif;
@@ -267,8 +280,9 @@ h3{
 }
 
 .subsub{
-	font-family: 'Lato', sans-serif, font-weight:100;
-	color: white;
+	font-family: 'Lato', sans-serif;
+	color: #e2e2e3;
+	font-weight: 100;
 	font-size: 17px;
 }
 
@@ -296,25 +310,60 @@ h3{
   background-color: white; /* Line color */
   height: 100%; 
   float: left; 
-    margin-left:300px;
+  margin-left:314px;
 }
 
 .horLine{
 	width:220px;
 	background-color:white;
 	height:3px;
-	margin-left:300px;
-	margin-top:59px;
 }
 
 #hor1{
-	margin-top:-5px;
+	margin-right: 282px;
+	margin-left: -16px;
+	margin-top: 107px;
 	float:right;
 }
 #hor2{
-	margin-left:895px;
-	margin-top:120px;
+	margin-left: -1px;
+	margin-top: 107px;
 	float:left;
+}
+
+.alignment {
+	margin-bottom: 0px;
+	margin-left: 475px;
+}
+
+#hor3{
+	text-align: center;
+	margin-left: 400px;
+	margin-top: 66px;
+	margin-bottom: 99px;
+	width:660px;
+	background-color:#6891c6;
+	height:3px;
+}
+
+#hor4{
+	float: right;
+	margin-right: -31px;
+	margin-top: 104px;
+	margin-bottom: 99px;
+	width:150px;
+	background-color: white;
+	height:3px;
+}
+
+#hor5{
+	
+	margin-left: -31px;
+	margin-top: 104px;
+	margin-bottom: 99px;
+	width:150px;
+	background-color:white;
+	height:3px;
 }
 
 #career {
@@ -326,7 +375,9 @@ h3{
 }
 
 #line2{
-	margin-left:810px;
+	margin-left:-284px;
+	margin-right: 350px;
+	margin-top: 0px;
 	float:right;
 }
 
@@ -334,7 +385,15 @@ h3{
 	text-align: center;
 	font-size: 110px;
 	color:#ffcc33;
-	margin-top:-30px;
+	margin-top:30px;
+}
+
+.belowtext {
+	color: #e2e2e3;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	font-size: 25px;
+	font-weight: 100;
 }
 
 #susPic{
@@ -345,6 +404,16 @@ h3{
 	margin-right:250px;
 	padding-left:30px;
 	margin-top:-250px;
+}
+
+#susPic2{
+	width:40%;
+	height:40%;
+	float:right;
+	float:top;
+	margin-right:250px;
+	padding-left:30px;
+	margin-top:-275px;
 }
 
 #susHead{
@@ -363,3 +432,61 @@ h3{
 #career{
 	float:bottom;
 }
+
+.founder {
+	float: left;
+	margin-top: -20px;
+	margin-left: -290px;
+	width: 200px;
+}
+
+.teampara {
+	color: #d8d8d8;
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 90px;
+}
+
+.teampara1 {
+	color: #d8d8d8;
+	font-family: 'Lato', sans-serif;
+	font-size: 17px;
+	font-weight: 500;
+}
+
+.teampara2 {
+	color: white;
+	margin-top: -10px;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: 100;
+}
+
+.pt7 {
+	background-color: #393d44;
+}
+
+.pt7para {
+	color: #d8d8d8;
+	margin-bottom: 0px;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+}
+
+#socialbottom {
+	margin-left: 672px;
+	margin-bottom: 10px;
+}
+
+#social {
+	width: 10%;
+	margin-left: -35px;
+}
+
+#social img {
+	width: 30px;
+}
+
+
