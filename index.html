@@ -20,6 +20,62 @@
     	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+
+        <!-- Smooth Scroll -->
+        <script type="text/javascript">
+    $(document).ready(function(){
+  $('a[href*=#pt2]').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+    && location.hostname == this.hostname) {
+      var $target = $(this.hash);
+      $target = $target.length && $target
+      || $('[name=' + this.hash.slice(1) +']');
+      if ($target.length) {
+        var targetOffset = $target.offset().top;
+        $('html,body')
+        .animate({scrollTop: targetOffset}, 1000);
+       return false;
+      }
+    }
+  });
+});
+  </script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+  $('a[href*=#pt3]').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+    && location.hostname == this.hostname) {
+      var $target = $(this.hash);
+      $target = $target.length && $target
+      || $('[name=' + this.hash.slice(1) +']');
+      if ($target.length) {
+        var targetOffset = $target.offset().top;
+        $('html,body')
+        .animate({scrollTop: targetOffset}, 1000);
+       return false;
+      }
+    }
+  });
+});
+  </script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+  $('a[href*=#pt4]').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+    && location.hostname == this.hostname) {
+      var $target = $(this.hash);
+      $target = $target.length && $target
+      || $('[name=' + this.hash.slice(1) +']');
+      if ($target.length) {
+        var targetOffset = $target.offset().top;
+        $('html,body')
+        .animate({scrollTop: targetOffset}, 1000);
+       return false;
+      }
+    }
+  });
+});
+  </script>
     </head>
 
     <body>
@@ -34,10 +90,11 @@
             </div>
 
     		<ul class="nav navbar-nav" id="topNav">
-    			<li>HOME</li>
-    			<li>PROBLEM</li>
-    			<li>SOLUTION</li>
-    			<li>HOW</li>
+    			<li><a href="#container">HOME</a></li>
+    			<li><a href="#pt2">PROBLEM</a></li>
+    			<li><a href="#pt3">SOLUTION</a></li>
+    			<li><a href="#pt4">HOW</a></li>
+                <li id = "contact"><a>CONTACT</a></li>
     		</ul>
     		</nav>
         </div>
@@ -56,20 +113,14 @@
         
             
         <form>
-            <input type="text" name="email" placeholder="Email Address" class="for" id="em">
+            <input type="text" name="email" placeholder="       Email Address" class="for" id="em">
             <input type="submit" value="Request A Demo" class="for" id="sub">
         </form>
-
+        <br>
            </div>
         </div>
 
-    </div>
-</div>
-    	</div>
-
-
-
-    	<div class="pt2">
+    	<div id="pt2">
     		<br>
             <div class="row">
                 <div class="col-md-12">
@@ -103,7 +154,7 @@
     		<br><br><br><br><br>
     	</div>
 
-    	<div class="pt3">
+    	<div id="pt3">
             <br>
     		<h3 id="pt3h">Our Solution</h3>
     		<div id="rectangle"></div>
@@ -134,7 +185,7 @@
         <p class="belowtext"> improvement in time to investigate events </p>
         <br><br><br><br><br><br><br><br>
     </div>
-    	<div class="pt4">
+    	<div id="pt4">
     		<br>
     		<h3 id="pt4h">How We Do It</h3>
     		<div id="rectangle"></div>
@@ -252,7 +303,7 @@
             <br><br>
             <div class = "row" id ="socialbottom">
                 <div class = "col-md-3" id ="social">
-                    <a href = "http://www.twitter.com"><img src = "web%20assets/5-Social/Twitter.png"></a>
+                    <img src = "web%20assets/5-Social/Twitter.png">
                 </div>
                 <div class = "col-md-3" id ="social">
                     <img src = "web%20assets/5-Social/Facebook.png">

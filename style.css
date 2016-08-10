@@ -5,10 +5,8 @@
 }
 
 html,body{
-	width: 100.503%;
+	width: 100%;
 	padding:0px;
-	margin-left:-7.5px;
-	margin-right:-7.5px;
 }
 
 .row {
@@ -16,12 +14,13 @@ html,body{
 }
 
 .container-fluid {
+	padding-left: 0px;
 	padding-right: 0px;
 }
 
 #logo{
-	width:15%;
-	height:15%;
+	width:218px;
+	height:120px;
 	padding:25px;
 	margin-left:30px;
 }
@@ -37,6 +36,23 @@ html,body{
 	margin-top:25px;
 	margin-left:600px;
 	font-family: 'Lato', sans-serif;
+}
+
+#topNav li {
+	padding: 0px;
+	color: white;
+}
+
+#topNav li a {
+	color: white;
+}
+
+#topNav li a:hover {
+	color: gray;
+}
+
+#contact {
+	color: #ffcc33;
 }
 
 li{
@@ -66,6 +82,7 @@ h1{
 
 #tagline{
 	text-align:center;
+	font-weight: 100;
 	padding:50px;
 	margin-right:450px;
 	margin-left:450px;
@@ -79,7 +96,7 @@ h2{
 	font-family: 'Lato', sans-serif;
 }
 
-.pt2{
+#pt2{
 	background-color:#ebebeb;
 	margin-top:;
 }
@@ -123,7 +140,7 @@ h3{
 	margin-left:275px;
 }
 
-.pt3{
+#pt3{
 	background-color:#393d44;
 }
 
@@ -174,7 +191,7 @@ h3{
 	font-family: 'Lato', sans-serif;
 }
 
-.pt4{
+#pt4{
 	background-color:#f3f3f3;
 	color:black;
 }
@@ -201,9 +218,10 @@ h3{
 
 .for{
 	border-radius:10px;
-	height:70px;
+	height:50px;
 	margin-left:400px;
 	margin-right:-400px;
+	font-family: 'Lato', sans-serif;
 }
 
 #em{
@@ -214,6 +232,7 @@ h3{
 #sub{
 	width:200px;
 	background:white;
+	font-weight: 1000;
 }
 
 .pt6 {
