@@ -1,3 +1,8 @@
+#responsiveness {
+	width: 1440px;
+	position: relative;
+}
+
 #container #main{
 	background-image:url('web%20assets/Hero-Image.jpg');
 	background-size:cover;
@@ -110,23 +115,28 @@ h3{
 }
 
 #pt2txt{
+	position: relative;
+	float: left;
 	color:black;
 	text-align: center;
 	font-family: 'Lato', sans-serif;
-	margin-left:-275px;
+	margin-left:0px;
 }
 
 .pt2a{
+	position: relative;
 	font-size: 30px;
 	font-family: 'Lato', sans-serif;
 }
 
 #pt2small{
+	position: relative;
 	font-size:10px;
 	font-family: 'Lato', sans-serif;
 }
 
 #pt2List{
+	position: relative;
 	color: #1a1a1a;
 	padding:20px;
 	font-size:18px;
@@ -134,8 +144,8 @@ h3{
 }
 
 #redX{
-	width:50%;
-	height:50%;
+	width:348px;
+	height:348px;
 	padding:0;
 	margin-left:275px;
 }
@@ -150,6 +160,8 @@ h3{
 
 #pt3a{
 	color:white;
+	margin-left: 300px;
+	margin-right: 300px;
 	text-align:center;
 	font-family: 'Lato', sans-serif;
 }
@@ -210,6 +222,7 @@ h3{
 
 .pt5{
 	background-color:#393d44;
+	height: 1000px;
 }
 
 .container {
@@ -289,13 +302,21 @@ h3{
 
 #sub2{
 	text-align:center;
-	margin-top:-44px;
+	margin-top:-35px;
 }
 
 #sub3{
 	text-align:right;
 	margin-right:290px;
-	margin-top:-44px;
+	margin-top:-80px;
+	margin-bottom: 20px;
+}
+
+#sub3a{
+	text-align:right;
+	margin-right:290px;
+	margin-top:-70px;
+	margin-bottom: 20px;
 }
 
 .subsub{
@@ -306,18 +327,32 @@ h3{
 }
 
 .tea{
+	position: relative;
+	margin-left: 85px;
+	margin-right: -85px;
+	width:150px;
+	height:150px;
+	padding:25px;
+}
+
+.tea2 {
+	margin-top: 200px;
+	position: relative;
 	width:150px;
 	height:150px;
 	padding:25px;
 }
 
 #team1{
+	position: absolute;
 	margin-left:500px;
 }
 
 #team2{
+	position: absolute;
 	margin-left:600px;
 }
+
 
 .tabz{
 	margin-left:
@@ -359,25 +394,26 @@ h3{
 	text-align: center;
 	margin-left: 400px;
 	margin-top: 66px;
-	margin-bottom: 99px;
+	margin-bottom: 75px;
 	width:660px;
 	background-color:#6891c6;
 	height:3px;
 }
 
 #hor4{
+	position: relative;
 	float: right;
-	margin-right: -31px;
+	margin-right: -10px;
 	margin-top: 104px;
-	margin-bottom: 99px;
+	margin-bottom: 75px;
 	width:150px;
 	background-color: white;
 	height:3px;
 }
 
 #hor5{
-	
-	margin-left: -31px;
+	position: relative;
+	margin-left: -50px;
 	margin-top: 104px;
 	margin-bottom: 99px;
 	width:150px;
@@ -453,6 +489,7 @@ h3{
 }
 
 .founder {
+	position: relative;s
 	float: left;
 	margin-top: -20px;
 	margin-left: -290px;
@@ -460,6 +497,7 @@ h3{
 }
 
 .teampara {
+	position: absolute;
 	color: #d8d8d8;
 	font-family: 'Lato', sans-serif;
 	font-weight: 500;
@@ -469,6 +507,7 @@ h3{
 }
 
 .teampara1 {
+	position: relative;
 	color: #d8d8d8;
 	font-family: 'Lato', sans-serif;
 	font-size: 17px;
@@ -476,6 +515,7 @@ h3{
 }
 
 .teampara2 {
+	position: relative;
 	color: white;
 	margin-top: -10px;
 	font-family: 'Lato', sans-serif;
@@ -509,11 +549,65 @@ h3{
 }
 
 .founderpara {
+	position: relative;
 	float: left;
 	color: #d8d8d8;
 	font-family: 'Lato', sans-serif;
 	font-size: 20px;
 	text-align: center;
 	margin-left: 210px;
+	margin-top: 220px;
 	font-weight: 500;
 }
+
+@media (max-width: 510px) {
+	#responsiveness {
+		width: 100%;
+	}
+	#topNav {
+		text-align: center;
+		margin-top: 100px;
+		margin-left: -1500px;
+	}
+
+	#redX {
+		margin-top: -10px;
+		margin-bottom: 30px;
+		margin-left: 20px;
+	}
+
+	#pt3a {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	#imgLeft{
+		margin-top: 50px;
+		margin-left: 40px;
+	}
+
+
+	#imgMid {
+		margin-top: 0px;
+	}
+
+	#imgRight {
+		margin-top: -43px;
+		margin-right: 60px;
+	}
+	#tabstyling {
+		text-align: center;
+		float: left;
+	}
+
+	#career {
+		text-align: center;
+	}
+}
+
+
+
+
+
+
+
