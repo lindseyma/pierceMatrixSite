@@ -489,4 +489,12 @@ h3{
 	width: 30px;
 }
 
-
+.founderpara {
+	float: left;
+	color: #d8d8d8;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	margin-left: 210px;
+	font-weight: 500;
+}
