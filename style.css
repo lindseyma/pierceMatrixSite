@@ -477,7 +477,7 @@ h3{
 	float:top;
 	margin-right:250px;
 	padding-left:30px;
-	margin-top:-250px;
+	margin-top:90px;
 }
 
 #susPic2{
@@ -487,7 +487,7 @@ h3{
 	float:top;
 	margin-right:250px;
 	padding-left:30px;
-	margin-top:-275px;
+	margin-top:110px;
 }
 
 #susHead{
@@ -615,12 +615,20 @@ h3{
 		margin-right: -100px;
 	}
 
+	#problem {
+		font-size: 44px;
+	}
+
 	#redX {
 		height: 200px;
 		width: 200px;
 		margin-top: -20px;
 		margin-bottom: 30px;
 		margin-left: 95px;
+	}
+
+	.pt2a {
+		font-size: 24px;
 	}
 
 	#pt3a {
