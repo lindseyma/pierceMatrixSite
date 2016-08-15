@@ -57,7 +57,13 @@ html,body{
 }
 
 #contact {
+	font-family: 'Lato', sans-serif;
 	color: #ffcc33;
+	background: transparent;
+	border-color: #ffcc33;
+	font-size: 18px;
+	margin-top: 30px;
+	margin-left: 20px;
 }
 
 li{
@@ -586,7 +592,8 @@ h3{
 	#headline{
 		padding:50px;
 		text-align:center;
-		margin-top:30px;
+		margin-top:-10px;
+		font-size: 65px;
 		font-family: 'Lato', sans-serif;
 	}	
 
@@ -598,8 +605,31 @@ h3{
 
 	#topNav {
 		text-align: center;
-		margin-top: 100px;
-		margin-left: -1500px;
+		margin-top: 150px;
+		margin-left: 0px;
+	}
+
+	#home {
+		font-size: 28px;
+	}
+
+	#problem1 {
+		margin-top: 10px;
+		float: left;
+		margin-left: 40px;
+	}
+
+	#solution {
+		margin-top: 10px;
+		float:left;
+		margin-left: 2px;
+		margin-right: -10px;
+	}
+
+	#how {
+		margin-top: 10px;
+		float: right;
+		margin-right: 60px;
 	}
 
 	#em{
@@ -619,12 +649,18 @@ h3{
 		font-size: 44px;
 	}
 
+	#contact {
+		text-align: center;
+		margin-top: 15px;
+		margin-left: 160px;
+	}
+
 	#redX {
 		height: 200px;
 		width: 200px;
 		margin-top: -20px;
 		margin-bottom: 30px;
-		margin-left: 95px;
+		margin-left: 90px;
 	}
 
 	.pt2a {
