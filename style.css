@@ -620,7 +620,7 @@ h3{
 		width: 200px;
 		margin-top: -20px;
 		margin-bottom: 30px;
-		margin-left: 90px;
+		margin-left: 95px;
 	}
 
 	#pt3a {
@@ -667,35 +667,34 @@ h3{
 	}
 
 	#susPic {
-
-	float:right;
-	float:top;
-	margin-right:250px;
-	padding-left:30px;
-	margin-top:-200px;
+	float: none;
+	margin-left: 35px;
+	width: 300px;
+	margin-top:30px;
+	margin-bottom: 30px;
 	}
 
 	#susPic2{
-	width:40%;
-	height:40%;
-	float:right;
-	float:top;
-	margin-right:250px;
-	padding-left:30px;
-	margin-top:-225px;
+	width: 300px;
+	float: none;
+	margin-left: 35px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 	}
 
 
 	#susHead {
 	padding-top:20px;
-	padding-left:175px;
+	padding-left: 0;
+	text-align: center;
 	font-family: 'Lato', sans-serif;
 	font-size:42px;
 	}
 
 	#susBod {
+		text-align: center;
 		padding-bottom:100px;
-		padding-left:175px;
+		padding-left:4px;
 		font-family: 'Lato', sans-serif;
 		font-size:18px;
 	}
