@@ -3,6 +3,24 @@
 	position: absolute;
 }
 
+.teamBot{
+	color:white;
+	margin-left:-500px;
+}
+
+#gino{
+	margin-left:30px;
+}
+
+#bruce{
+	margin-top:-70px;
+	margin-left:190px;
+}
+
+#yanek{
+	margin-top:-70px;
+	margin-left:340px;
+}
 #container #main{
 	background-image:url('web%20assets/Hero-Image.jpg');
 	background-size:cover;
