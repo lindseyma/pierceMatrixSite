@@ -1,6 +1,6 @@
 #responsiveness {
 	width: 1440px;
-	position: relative;
+	position: absolute;
 }
 
 #container #main{
@@ -9,9 +9,13 @@
 	background-repeat: no-repeat;
 }
 
-html,body{
-	width: 100%;
-	padding:0px;
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 }
 
 .row {
@@ -366,7 +370,7 @@ h3{
 }
 
 #team2{
-	position: absolute;
+	position: relative;
 	margin-left:600px;
 }
 
@@ -585,8 +589,13 @@ h3{
 }
 
 @media (max-width: 510px) {
-	#responsiveness {
+	html, body {
 		width: 100%;
+		height: 100%;
+	}
+
+	#responsiveness {
+		width: 400px;
 	}
 
 	#headline{
@@ -604,12 +613,14 @@ h3{
 	}
 
 	#topNav {
+		width: 100%;
 		text-align: center;
 		margin-top: 150px;
 		margin-left: 0px;
 	}
 
 	#home {
+		margin-left: 15px;
 		font-size: 28px;
 	}
 
@@ -629,7 +640,7 @@ h3{
 	#how {
 		margin-top: 10px;
 		float: right;
-		margin-right: 60px;
+		margin-right: 50px;
 	}
 
 	#em{
@@ -715,6 +726,7 @@ h3{
 	margin-left: 35px;
 	width: 300px;
 	margin-top:30px;
+	margin-right: 0px;
 	margin-bottom: 30px;
 	}
 
@@ -722,6 +734,7 @@ h3{
 	width: 300px;
 	float: none;
 	margin-left: 35px;
+	margin-right: 0px;
 	margin-top: 30px;
 	margin-bottom: 30px;
 	}
@@ -858,8 +871,18 @@ h3{
 		margin-left:-25px;
 	}
 
+	.pt5{
+		background-color:#393d44;
+		height: 1550px;
+	 }
+
+	 #team1 {
+	 	position: absolute;
+	 	margin-left: 0px;
+	 }
+
 	.founder{
-		margin-left:-490px;
+		margin-left:10px;
 		margin-top:-175px;	
 		float:left;
 	}
@@ -869,33 +892,56 @@ h3{
 		margin-top:50px;
 	}
 
-
 	.tea2{
-		margin-top: 412px;
-		margin-left:-448px;
+		margin-top: 475px;
+		margin-left:-460px;
 	}
 
 	#lilTea{
-		margin-top:150px;
-		margin-left:-350px;
+		margin-top:250px;
+		margin-left:135px;
 		margin-right:-20px;
 
 	}
 
-	#lilTea2{
-	margin-top:450px;
+	#lilTea1a{
+		margin-top:-356px;
+		margin-left:-70px;
+		margin-right:-20px;
+
+	}
+
+	#lilTea2a{
+	margin-top:50px;
 	margin-left:-135px;
-	margin-right:200px;
+	margin-right:0px;
+	}
+
+	#lilTea2{
+	margin-top:50px;
+	margin-left:55px;
+	margin-right:0px;
 	}
 
 	#lilTea4 {
-		margin-left: -375px;
+		margin-left: -362px;
 		margin-right: -405px;
 	}
 
 	#lilTea5 {
 		margin-left: 364px;
-		margin-top: 703px;
+		margin-top: 800px;
+	}
+
+	#hor4, .teampara, #hor5 {
+		margin-left: -800px;
+	}
+
+	.teampara1, .teampara2 {
+		margin-left: -500px;
+		width: 400px;
+		margin-right: 0;
+
 	}
 
 }
