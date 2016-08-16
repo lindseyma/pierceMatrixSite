@@ -866,12 +866,13 @@ h3{
 
 	.founderpara{
 		margin-left:11px;
-		margin-top:100px;
+		margin-top:50px;
 	}
 
 
 	.tea2{
-		margin-left:-300px;
+		margin-top: 412px;
+		margin-left:-448px;
 	}
 
 	#lilTea{
@@ -887,7 +888,16 @@ h3{
 	margin-right:200px;
 	}
 
-	
+	#lilTea4 {
+		margin-left: -375px;
+		margin-right: -405px;
+	}
+
+	#lilTea5 {
+		margin-left: 364px;
+		margin-top: 703px;
+	}
+
 }
 
 
